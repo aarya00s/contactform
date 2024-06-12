@@ -394,7 +394,7 @@ stars {
   left: 0;
   right: 0;
   margin: auto;
-  animation: stars 100s linear infinite;
+  animation: stars 50s linear infinite;
   -webkit-box-reflect: below -50rem;
   opacity: 0;
   z-index: 0;
@@ -439,7 +439,7 @@ sky:before, sky:after {
   height: 100%;
   background: linear-gradient(#323248 10%, #fbd447, #d8480f);
   opacity: 0;
-  animation: sky 100s linear infinite;
+  animation: sky 50s linear infinite;
 }
 sky:after {
   background: linear-gradient(#19043f, #1a0f6c);
@@ -462,7 +462,7 @@ time sun {
   bottom: -100%;
   transform: rotate(0deg);
   z-index: 1;
-  animation: sun 100s linear infinite;
+  animation: sun 50s linear infinite;
   filter: blur(1rem) brightness(400%);
 }
 time sun:before {
@@ -496,7 +496,7 @@ time sun:after {
 div.ss lens {
   top: 20rem;
   left: 70rem;
-  animation: lensflair 100s linear infinite;
+  animation: lensflair 50s linear infinite;
   width: 60rem;
   height: 60rem;
   filter: brightness(150%);
@@ -576,7 +576,7 @@ sunset {
   background: radial-gradient(farthest-side at 70% 100%, #ff6400, rgba(255, 255, 255, 0));
   filter: blur(1rem);
   -webkit-box-reflect: below 0;
-  animation: sunset 100s linear infinite;
+  animation: sunset 50s linear infinite;
   opacity: 0;
   transform: translate3d(0, 20rem, 0);
 }
